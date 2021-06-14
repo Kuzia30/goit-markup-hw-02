@@ -10,10 +10,22 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .logo {
   color: #000000;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo.dark {
@@ -30,6 +42,12 @@ body {
 /* site nav */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -49,6 +67,12 @@ body {
 
 .contacts .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .list {
@@ -59,21 +83,66 @@ body {
 .hero .title {
   color: var(--primary-white-color);
   background-color: tomato;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button */
 .hero .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* sections */
-.section-title {
+.section-title,
+.caption {
   color: var(--title-text-color);
+}
+
+.advantages .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.business .caption,
+.team .caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .team {
   background-color: var(--section-grey-color);
+}
+
+.team .section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* footer */
@@ -81,12 +150,18 @@ body {
   background-color: var(--footer-color);
 }
 
-.address .link-map {
+.address .link.map {
   color: var(--primary-white-color);
 }
 
 .address .link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* filter */
