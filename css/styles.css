@@ -213,6 +213,7 @@ body {
   cursor: pointer;
 
   color: var(--title-text-color);
+  background-color: var(--section-grey-color);
 }
 
 .filter-list-button:hover,
