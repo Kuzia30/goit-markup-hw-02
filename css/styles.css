@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -19,6 +19,14 @@ body {
 
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* ==============header================== */
@@ -58,17 +66,15 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
-.logo:focus,
-.logo:hover,
-.menu-item-link:focus,
-.menu-item-link:hover,
-.contacts-item-mail:focus,
-.contacts-item-mail:hover,
-.contacts-item-tel:focus,
-.contacts-item-tel:hover {
+.link-hover-focus:focus,
+.link-hover-focus:hover {
   color: var(--accent-color);
 }
 /* ==============header================== */
+.hero {
+  background-color: var(--footer-color);
+}
+
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -78,7 +84,6 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: var(--primary-white-color);
-background-color: tomato;
 }
 
 .hero-button {
@@ -94,3 +99,89 @@ color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
 /* ==============hero================== */
+
+/* ==============advantages================== */
+.advantages-title {
+  color: tomato;
+}
+
+.advantages-list-item-caption {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+
+color: var(--title-text-color);
+}
+/* ==============advantages================== */
+
+/* ==============business================== */
+.business-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+
+color: var(--title-text-color);
+}
+/* ==============business================== */
+
+/* ==============team================== */
+.team {
+  background-color: var(--section-grey-color);
+}
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+
+color: var(--title-text-color);
+}
+
+.team-list-item-caption {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+
+color: var(--title-text-color);
+}
+
+.team-list-item-text {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+
+color: var(--primary-text-color);
+}
+/* ==============team================== */
+
+/* ==============footer================== */
+.footer {
+  background-color: var(--footer-color);
+}
+.logo-dark {
+  font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+color: var(--primary-white-color);
+}
+
+.address-list-item-map{
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+color: var(--primary-white-color);}
+
+.address-list-item-mail,
+.address-list-item-tel{
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+
+color: rgba(255, 255, 255, 0.6);
+}
+/* ==============footer================== */
