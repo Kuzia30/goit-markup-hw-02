@@ -3,6 +3,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --logo-black-color: #000000;
   --section-grey-color: #f5f4fa;
   --footer-color: #2f303a;
   --main-font: Roboto, sans-serif;
@@ -10,12 +11,86 @@
 }
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
-
   font-family: var(--main-font)
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
 }
+
+/* ==============header================== */
+.logo {
+  font-family: var(--secondary-font)
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--logo-black-color);
+}
+
+.part-logo {
+  color: var(--accent-color);
+}
+
+.menu-item-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--title-text-color);
+}
+
+.menu-item-link.current {
+  color: var(--accent-color);
+}
+
+.contacts-item-mail,
+.contacts-item-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color);
+}
+
+.logo:focus,
+.logo:hover,
+.menu-item-link:focus,
+.menu-item-link:hover,
+.contacts-item-mail:focus,
+.contacts-item-mail:hover,
+.contacts-item-tel:focus,
+.contacts-item-tel:hover {
+  color: var(--accent-color);
+}
+/* ==============header================== */
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--primary-white-color);
+background-color: tomato;
+}
+
+.hero-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+/* ==============hero================== */
